@@ -7,17 +7,18 @@ class Hangman < Sinatra::Base
   get '/' do
     @random_word = pick_random_word.scan(/\w/).join(' ')
     @blanks_array = make_blanks_array(@random_word)
+    make_gallow(0)
     erb :main
   end
 
   post '/' do
     @letters = []
-    @wrong_letters = []
+    @wrong_letters = [" "]
     @random_word = params[:random_word]
     @guess = params[:guess]
     @letters = params[:letters]
     @wrong_letters = params[:wrong_letters]
-    @gallow = make_gallow(@wrong_letters.length)
+    make_gallow(@wrong_letters.length)
     # Check for repeat guesses
     @guess_validation = validate_guess(@letters, @guess)
     @blanks_array = params[:blanks]
@@ -27,8 +28,10 @@ class Hangman < Sinatra::Base
       @blanks_array[i] = @guess
       end
     else
-      @wrong_letters << @guess
-      @feedback = "incorrect letter."
+      if not @wrong_letters.include?(@guess)
+        @wrong_letters << @guess
+      @feedback = "Wrong letter. Pick again:"
+      end
     end
     state = determine_state(@blanks_array)
     # Who won?
@@ -43,6 +46,7 @@ class Hangman < Sinatra::Base
   def validate_guess(array, guess)
     if not array.include?(guess)
       @letters << guess
+      return nil
     else
       "You already guessed #{guess}."
     end
@@ -85,23 +89,10 @@ class Hangman < Sinatra::Base
   end
 
   def make_gallow(i)
-    if i == 0
-      @gallow = 'hang0'
-    elsif i == 1
-      @gallow = 'hang1'
-    elsif i == 2
-      @gallow = 'hang2'
-    elsif i == 3
-      @gallow = 'hang3'
-    elsif i == 4
-      @gallow = 'hang4'
-    elsif i == 5
-      @gallow = 'hang5'
-    elsif i == 6
-      @gallow = 'hang6'
-    end
-    @gallow
+    @gallow = "hang#{i}"
+    STDERR.puts(@gallow)
   end
+
 end
 
 

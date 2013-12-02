@@ -6,14 +6,15 @@
 </head>
 
 <body>
-  <%= @blanks_array %>
-  <%= @feedback %>
-  <%= @guess_validation %>
-  <img src="/images/<%= @gallow %>.png">
+
+  <img src="/images/<%= @gallow %>.png"><br>
+  <%= @blanks_array %><br>
+  <%= @feedback %><br>
+  <%= @guess_validation %><br>
 
   <form method="post">
   <label for="guess"><span>Guess a letter:</span></label>
-  <input type="text" name="guess">
+  <input type="text" name="guess" maxlength="1">
   <input type="submit" value="Guess!">
    <input type="hidden" name="random_word" value="<%= @random_word %>">
       <input type="hidden" name="blanks" value="<%= @blanks_array %>">
