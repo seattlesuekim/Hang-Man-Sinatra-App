@@ -5,7 +5,9 @@
   <link rel="stylesheet" media="screen" href="/css/hangman.css"/>
 </head>
 
-<body>
+<body OnLoad="document.guess.guess.focus();">
+
+<div class="game">
 
   <img src="/images/<%= @gallow %>.png"><br>
   <%= @blanks_array %><br>
@@ -21,6 +23,8 @@
       <input type="hidden" name="letters" value="<%= @letters %>">
       <input type="hidden" name="wrong_letters" value="<%= @wrong_letters %>">
   </form>
+
+</div>
 
 </body>
 

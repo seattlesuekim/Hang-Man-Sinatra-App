@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f076c0-7578-4a91-813d-aa4ea7167c9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/hangman.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang0.png" afterPath="$PROJECT_DIR$/public/images/hang0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang1.png" afterPath="$PROJECT_DIR$/public/images/hang1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang2.png" afterPath="$PROJECT_DIR$/public/images/hang2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang3.png" afterPath="$PROJECT_DIR$/public/images/hang3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang4.png" afterPath="$PROJECT_DIR$/public/images/hang4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang5.png" afterPath="$PROJECT_DIR$/public/images/hang5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hang6.png" afterPath="$PROJECT_DIR$/public/images/hang6.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/hangman.css" afterPath="$PROJECT_DIR$/public/css/hangman.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/hangman.rb" afterPath="$PROJECT_DIR$/lib/hangman.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.erb" afterPath="$PROJECT_DIR$/views/main.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hangman app.iws" />
@@ -14,15 +20,15 @@
     <file path="/layout.erb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385959664818" ignored="false" />
     <file path="$PROJECT_DIR$/../sinatra practice/lib/blog.rb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385956626942" ignored="false" />
     <file path="/hangman.rb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386017917828" ignored="false" />
-    <file path="/Dummy.txt" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386013533903" ignored="false" />
+    <file path="/Dummy.txt" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386020564821" ignored="false" />
     <file path="/hangman.erb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385957186172" ignored="false" />
     <file path="$PROJECT_DIR$/../sinatra practice/views/layout.erb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385879002780" ignored="false" />
     <file path="/config.ru" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385957568216" ignored="false" />
-    <file path="/main.erb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386018102418" ignored="false" />
+    <file path="/main.erb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386019248059" ignored="false" />
     <file path="$PROJECT_DIR$/../Hang Man/hang_man.rb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386003700681" ignored="false" />
     <file path="/hang_man.rb" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1385963690984" ignored="false" />
     <file path="/ascii.txt" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386008189090" ignored="false" />
-    <file path="/hangman.css" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386018337547" ignored="false" />
+    <file path="/hangman.css" changelist="c7f076c0-7578-4a91-813d-aa4ea7167c9c" time="1386020207025" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +101,7 @@
       <file leaf-file-name="main.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/main.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="369" selection-end="369" vertical-scroll-proportion="-10.0">
+            <state line="9" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -104,7 +110,7 @@
       <file leaf-file-name="hangman.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/hangman.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="31" selection-end="31" vertical-scroll-proportion="0.026929982">
+            <state line="15" column="30" selection-start="220" selection-end="220" vertical-scroll-proportion="0.6181319">
               <folding />
             </state>
           </provider>
@@ -122,16 +128,7 @@
       <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ascii.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/ascii.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -159,17 +156,18 @@
         <option value="$PROJECT_DIR$/views/hangman.erb" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
-        <option value="$PROJECT_DIR$/public/images/ascii.txt" />
         <option value="$PROJECT_DIR$/lib/hangman.rb" />
+        <option value="$PROJECT_DIR$/public/js/hangman.js" />
         <option value="$PROJECT_DIR$/views/main.erb" />
+        <option value="$PROJECT_DIR$/public/images/ascii.txt" />
         <option value="$PROJECT_DIR$/public/css/hangman.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
+    <option name="x" value="138" />
     <option name="y" value="22" />
-    <option name="width" value="898" />
+    <option name="width" value="892" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -247,6 +245,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hangman app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hangman app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,16 +477,17 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="106" y="22" width="898" height="705" extended-state="0" />
+    <frame x="138" y="22" width="892" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20457143" sideWeight="0.67052025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17491369" sideWeight="0.382906" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17491369" sideWeight="0.2854701" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -529,7 +542,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="looks cool, off-by-one with wrong_letters" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -543,6 +556,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Small input field, gallows visible" />
+    <MESSAGE value="looks cool, off-by-one with wrong_letters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -581,23 +596,9 @@
         <state line="41" column="5" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="11" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/ascii.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -619,16 +620,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/hangman.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="1" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/wallpaper.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/ascii.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/main.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="369" selection-end="369" vertical-scroll-proportion="-10.0">
+        <state line="9" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/hangman.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="31" selection-end="31" vertical-scroll-proportion="0.026929982">
+        <state line="15" column="30" selection-start="220" selection-end="220" vertical-scroll-proportion="0.6181319">
           <folding />
         </state>
       </provider>

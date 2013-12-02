@@ -1,3 +1,32 @@
+body {
+    background-image: url("/images/wallpaper.jpg")
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    border: 1 px darkred solid;
+}
+
+div.game {
+    background-color: #460507;
+    opacity: 0.7;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-top: 3px #A3A3A3 solid;
+    border-left: 3px #666666 solid;
+    border-right: 3px #474747 solid;
+    border-bottom: 3px #333333 solid;
+    box-shadow: 10px 10px 15px 10px black;
+
+}
+
 input[type=text] {
     width: 2ex;
 }
+
