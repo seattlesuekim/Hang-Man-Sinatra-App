@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" media="screen" href="/css/hangman.css"/>
+</head>
+
+<body>
+  <%= @blanks_array %>
+  <%= @feedback %>
+  <%= @guess_validation %>
+  <img src="/images/<%= @gallow %>.png">
+
+  <form method="post">
+  <label for="guess"><span>Guess a letter:</span></label>
+  <input type="text" name="guess">
+  <input type="submit" value="Guess!">
+   <input type="hidden" name="random_word" value="<%= @random_word %>">
+      <input type="hidden" name="blanks" value="<%= @blanks_array %>">
+      <input type="hidden" name="letters" value="<%= @letters %>">
+      <input type="hidden" name="wrong_letters" value="<%= @wrong_letters %>">
+  </form>
+
+</body>
+
+</html>
